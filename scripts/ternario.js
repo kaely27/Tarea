@@ -22,3 +22,6 @@ let r = precio - operacion
 console.log(precio >= 100 ? `El precio final es: ${r}` : `El precio es: ${precio}`);
 
 
+//TERNARIO ANIDADO
+let z = 0;
+console.log(z < 0 ? "---Es negativa---" : z > 0 ? "Es positiva" : "Es cero");
